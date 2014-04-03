@@ -145,13 +145,13 @@ iframe {
 #content-uses {
 	background-color: #ca0000;
 	position: relative;
-	overflow: auto;
+	overflow: hidden;
 }
 
 #benefits {
 	background-color: #47ca00;
 	position: relative;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .list-margin {
