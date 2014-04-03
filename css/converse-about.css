@@ -22,22 +22,19 @@ body {
 h1 {
 	font-family: 'Avant Garde Medium', Helvetica, sans-serif;
 	margin: 50px;
-	text-shadow: 2px 2px #000000;
 }
 
 p {
-	font-size: 20px;
-	margin: 50px;
-	text-shadow: 2px 2px #000000;
+	font-size: 16px;
+	margin: 20px 50px;
 }
 
 ul, ol {
-	margin: 50px;
+	margin: 20px 50px;
 }
 
 li {
-	font-size: 20px;
-	text-shadow: 2px 2px #000000;
+	font-size: 16px;
 	margin-top: 20px;
 }
 
@@ -55,11 +52,11 @@ iframe {
 	overflow: auto;
 }
 
-.rt-logo {
-	background-image: url(../assets/RT_logo_vector.png);
+.indabasync-logo {
+	background-image: url(../assets/logo_indabasync.png);
 	background-repeat: no-repeat;
-	height: 208px;
-	width: 350px;
+	height: 91px;
+	width: 500px;
 	margin: 90px auto;
 }
 
@@ -74,7 +71,6 @@ iframe {
 }
 
 .arrow {
-
 }
 
 .arrow a {
@@ -122,7 +118,7 @@ iframe {
 
 #about {
 	position: relative;
-	background-image: url(../assets/about.png);
+	background-color: #0083ca;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -139,10 +135,22 @@ iframe {
 
 #need-to-know {
 	position: relative;
-	background-image: url(../assets/need_to_know.png);
+	background-color: #FF9600;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	overflow: auto;
+}
+
+#content-uses {
+	background-color: #ca0000;
+	position: relative;
+	overflow: auto;
+}
+
+#benefits {
+	background-color: #47ca00;
+	position: relative;
 	overflow: auto;
 }
 
@@ -151,11 +159,11 @@ iframe {
 }
 
 #terms {
-	background-image: url(../assets/terms.png);
+	background-color: #00abca;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	overflow: hidden;
+	overflow: auto;
 }
 
 #form {
