@@ -148,6 +148,10 @@ iframe {
 	overflow: hidden;
 }
 
+#content-uses li, #content-uses p {
+	font-size: 14px;
+}
+
 #benefits {
 	background-color: #47ca00;
 	position: relative;
